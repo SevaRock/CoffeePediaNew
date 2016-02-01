@@ -1,0 +1,19 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MyCoffeeTheme.CoffeeTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/AlertDialog.AppCompat.Light</item>
+        <item name="android:colorPrimary">@color/colorMilkCoffee</item>
+        <item name="android:colorPrimaryDark">@color/colorDarkCoffee</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/colorMilkCoffee</item>
+        <item name="android:statusBarColor">@color/colorMoreDarkerCoffee</item>
+    </style>
+</resources>

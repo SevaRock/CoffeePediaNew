@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#E39D6D"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sevarock.coffeepedia.About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutTitle"
+        android:textColor="#111111"
+        android:text="CoffeePedia - the coffee Encyclopedia"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createdField"
+        android:textAlignment="center"
+        android:text="Created by Seva Powerman"
+        android:layout_below="@+id/aboutTitle"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:id="@+id/aboutImage"
+        android:layout_below="@id/createdField"
+        android:src="@drawable/iconcoffee"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailField"
+        android:text="pashaseva@gmail.com"
+        android:textAlignment="center"
+        android:layout_below="@+id/aboutImage"
+        android:autoLink="email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateIssue"
+        android:layout_below="@+id/emailField"
+        android:text="Moscow 2015"
+        android:textAlignment="center"/>
+</RelativeLayout>
