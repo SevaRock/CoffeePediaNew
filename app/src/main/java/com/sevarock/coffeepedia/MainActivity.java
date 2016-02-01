@@ -130,9 +130,6 @@ public class MainActivity extends AppCompatActivity
 
     public void mapClick (View view) {
 
-
-        //WTFFFFFF????
-        //Whyyyyy
         String geoUriString = "geo:0,0?q=moscow+coffee+shops&z=8";
         Uri geoUri = Uri.parse(geoUriString);
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, geoUri);
