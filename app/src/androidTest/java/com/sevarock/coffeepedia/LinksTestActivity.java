@@ -37,5 +37,25 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
+
+
+@RunWith(AndroidJUnit4.class)
+@SmallTest
 public class LinksTestActivity {
+
+    @Rule
+    public ActivityTestRule<LinksActivity> mActivityRule = new ActivityTestRule(LinksActivity.class);
+
+    @Test
+    public void checkElementsDisplayed () {
+
+    //Checking Header is Presented
+    onView(withId(R.id.LinksActivityHeader)).check(matches(isDisplayed()));
+    //Checking Link1 is Presented
+    onView(withId(R.id.Link1)).check(matches(isDisplayed()));
+
+    }
+
+
+
 }
