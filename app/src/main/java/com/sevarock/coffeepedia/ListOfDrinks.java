@@ -31,6 +31,8 @@ public class ListOfDrinks extends Activity implements OnClickListener {
         americano.setOnClickListener(this);
         Button espresso = (Button) findViewById(R.id.Espresso);
         espresso.setOnClickListener(this);
+        Button macchiato = (Button) findViewById(R.id.Macchiato);
+        macchiato.setOnClickListener(this);
 
         //Custom Fonts Applying
         TextView customViewTop = (TextView) findViewById(R.id.ListHeader);
@@ -77,6 +79,17 @@ public class ListOfDrinks extends Activity implements OnClickListener {
                 coffeeArticle.putExtra("image" , EspressoUri);
                 startActivity(coffeeArticle);
                 break;
+
+            case R.id.Macchiato:
+                coffeeArticle.putExtra("header" , "Macchiato");
+                Uri MachiatoUri = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + getResources()
+                        .getResourcePackageName(R.drawable.macchiato) + '/' + getResources().
+                        getResourceTypeName(R.drawable.macchiato) + '/' + String.valueOf(R.drawable.macchiato));
+                coffeeArticle.putExtra("body", getResources().getResourceName(R.raw.machiatto));
+                coffeeArticle.putExtra("image" , MachiatoUri);
+                startActivity(coffeeArticle);
+                break;
+
         }
 
 
