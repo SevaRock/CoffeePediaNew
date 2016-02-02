@@ -44,6 +44,7 @@
         android:textStyle="italic"
         android:textAllCaps="false"
         android:textColor="#ffffff"
+        android:onClick="varietiesClick"
         android:layout_below="@+id/ButtonSorts"
         android:layout_marginBottom="8dp"/>
 

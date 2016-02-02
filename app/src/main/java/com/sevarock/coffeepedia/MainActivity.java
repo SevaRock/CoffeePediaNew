@@ -128,6 +128,12 @@ public class MainActivity extends AppCompatActivity
         startActivity(linksClickActivity);
     }
 
+    public void varietiesClick (View view) {
+        Intent varietiesClickActivity = new Intent(this, VarietiesActivity.class);
+        startActivity(varietiesClickActivity);
+
+    }
+
     public void mapClick (View view) {
 
         String geoUriString = "geo:0,0?q=moscow+coffee+shops&z=8";
