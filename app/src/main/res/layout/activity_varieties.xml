@@ -79,6 +79,17 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/Brutte"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Brutte"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/Catimor"
                 android:background="@drawable/coffeebutton"
                 android:textStyle="italic"
@@ -108,6 +119,353 @@
                 android:textAllCaps="false"
                 android:textColor="#ffffff"
                 android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Charrieriana"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Charrieriana"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Colombian"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Colombian"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/EthiopianHarar"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Ethiopian Harar"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/EthiopianSidamo"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Ethiopian Sidamo"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/EthiopianYirgacheffe"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Ethiopian Yirgacheffe"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/FrenchMission"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="French Mission"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Geisha"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Geisha"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/GuadeloupeBonifieur"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Guadeloupe Bonifieur"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Hawaiiankona"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Hawaiian Kona"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Java"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Java"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/K7"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="K7"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Maragogype"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Maragogype"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Maragaturra"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Maragaturra"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Mayagüez"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Mayagüez"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Mocha"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Mocha"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MundoNovo"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Mundo Novo"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/OrangeBourbon"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Orange Bourbon"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pacamara"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Pacamara"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pacas"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Pacas"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PacheColis"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Pache Colis"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PacheComum"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Pache Comum"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ruiru11"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Ruiru 11"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S795"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="S795"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Santos"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Santos"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Sarchimor"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Sarchimor"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SL28"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="SL 28"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SulawesiTorajaKalossi"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Sulawesi Toraja Kalossi"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SumatraMandheling"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Sumatra Mandheling"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TimorArabusta"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Timor Arabusta"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Typica"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Typica"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Uganda"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Uganda"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+
+
+
+
+
 
 
 

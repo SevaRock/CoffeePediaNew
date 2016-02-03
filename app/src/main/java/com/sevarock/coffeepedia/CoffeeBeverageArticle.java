@@ -40,7 +40,7 @@ public class CoffeeBeverageArticle extends Activity {
         WebView ArtBody = (WebView) findViewById(R.id.ArticleBody);
         ArtBody.getSettings();
         ArtBody.setBackgroundColor(Color.parseColor("#BA7C50"));
-        //Хороший пример форматирования html текста внутри WebView
+        //Хороший (?) пример форматирования html текста внутри WebView
         String textStyle = "<html><body style=\"text-align:justify\"> %s </body></Html>";
         String resName = getIntent().getStringExtra("body");
         String article = readRawTextFile(context, getResources().getIdentifier(resName, "raw", "com.sevarock.coffeepedia"));
