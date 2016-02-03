@@ -76,6 +76,39 @@
                 android:textColor="#ffffff"
                 android:layout_marginBottom="8dp"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Catimor"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Catimor"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Catuai"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Catuai"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Caturra"
+                android:background="@drawable/coffeebutton"
+                android:textStyle="italic"
+                android:text="Caturra"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="8dp"/>
+
 
 
 
