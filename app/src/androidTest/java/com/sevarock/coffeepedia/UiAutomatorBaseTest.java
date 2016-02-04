@@ -62,15 +62,27 @@ public class UiAutomatorBaseTest {
         onView(withText("List Of Coffee Drinks")).perform(click());
         //Click on Capuccino Button
         onView(withId(R.id.capuccino)).perform(click());
+        onView(withId(R.id.ArticleHeaderText)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleHeaderImage)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleBody)).check(matches(isDisplayed()));
         pressBack();
         //Click on Americano Button
         onView(withId(R.id.americano)).perform(click());
+        onView(withId(R.id.ArticleHeaderText)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleHeaderImage)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleBody)).check(matches(isDisplayed()));
         pressBack();
         //Click on Espresso Button
         onView(withId(R.id.Espresso)).perform(click());
+        onView(withId(R.id.ArticleHeaderText)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleHeaderImage)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleBody)).check(matches(isDisplayed()));
         pressBack();
         //Click on Macchiato Button
         onView(withId(R.id.Macchiato)).perform(scrollTo(), click());
+        onView(withId(R.id.ArticleHeaderText)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleHeaderImage)).check(matches(isDisplayed()));
+        onView(withId(R.id.ArticleBody)).check(matches(isDisplayed()));
         pressBack();
     }
 
