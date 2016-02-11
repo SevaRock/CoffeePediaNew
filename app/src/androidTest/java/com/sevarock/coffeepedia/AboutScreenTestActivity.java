@@ -4,6 +4,8 @@ package com.sevarock.coffeepedia;
  * Created by Seva Powerman on 28.01.2016.
  */
 
+import android.os.RemoteException;
+import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.UiDevice;
@@ -41,8 +43,18 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 @SmallTest
 public class AboutScreenTestActivity {
 
+    private UiDevice mDevice;
+
     @Rule
     public ActivityTestRule<About> mActivityRule = new ActivityTestRule(About.class);
+
+    @Before
+    public void startMainActivityFromHomeScreen() throws RemoteException {
+        // Initialize UiDevice instance
+        mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());
+        mDevice.wakeUp();
+
+    }
 
     @Test
     public void isAllItemsDisplayed ()  {

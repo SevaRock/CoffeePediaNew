@@ -1,6 +1,8 @@
 package com.sevarock.coffeepedia;
 
 //import android.support.test.espresso.R;
+import android.os.RemoteException;
+import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.UiDevice;
@@ -41,8 +43,18 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 @LargeTest
 public class UiAutomatorBaseTest {
 
+    private UiDevice mDevice;
+
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule(MainActivity.class);
+
+    @Before
+    public void startMainActivityFromHomeScreen() throws RemoteException {
+        // Initialize UiDevice instance
+        mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());
+        mDevice.wakeUp();
+
+    }
 
     @Test
     public void findButtonListDrinks() {
