@@ -36,7 +36,7 @@ public class ListOfDrinks extends Activity implements OnClickListener {
 
         //Custom Fonts Applying
         TextView customViewTop = (TextView) findViewById(R.id.ListHeader);
-        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/grasshopper.ttf");
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/docktrin.ttf");
         customViewTop.setTypeface(myCustomFont);
 
     }
