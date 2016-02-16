@@ -48,6 +48,7 @@ public class CoffeeBeverageArticle extends Activity {
     }
 
     //Чтение текста из ресурсов
+    //TODO Нормально отредактировать хуево отображающиеся текста в ресурсах
     public static String readRawTextFile(Context context, int resId)
     {
         InputStream inputStream = context.getResources().openRawResource(resId);
