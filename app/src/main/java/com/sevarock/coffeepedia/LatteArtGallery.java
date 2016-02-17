@@ -11,5 +11,6 @@ public class LatteArtGallery extends Activity {
         setContentView(R.layout.activity_latte_art_gallery);
 
         //TODO Убрать тормоза ибо пиздец
+        //TODO Допилить адекватно, как в примерах с котиками
     }
 }

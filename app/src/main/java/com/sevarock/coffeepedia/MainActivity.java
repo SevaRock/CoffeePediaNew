@@ -1,6 +1,7 @@
 package com.sevarock.coffeepedia;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -16,6 +17,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
+import android.widget.Button;
+import android.widget.TextView;
 
 import java.security.PublicKey;
 
@@ -30,6 +33,27 @@ public class MainActivity extends AppCompatActivity
         toolbar.setLogo(R.drawable.coffeelogo);
         toolbar.setBackgroundColor(getResources().getColor(R.color.colorDarkCoffee));
         setSupportActionBar(toolbar);
+
+        //Custom Fonts Applying
+        TextView customViewTop = (TextView) findViewById(R.id.welcomeText);
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/docktrin.ttf");
+        customViewTop.setTypeface(myCustomFont);
+
+        //Test Button Font Applying
+        Button customButton1 = (Button) findViewById(R.id.ButtonSorts);
+        customButton1.setTypeface(myCustomFont);
+
+        Button customButton2 = (Button) findViewById(R.id.ButtonVarieties);
+        customButton2.setTypeface(myCustomFont);
+
+        Button customButton3 = (Button) findViewById(R.id.CappucinoArtButton);
+        customButton3.setTypeface(myCustomFont);
+
+        Button customButton4 = (Button) findViewById(R.id.LinksButton);
+        customButton4.setTypeface(myCustomFont);
+
+        Button customButton5 = (Button) findViewById(R.id.MapButton);
+        customButton5.setTypeface(myCustomFont);
 
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -119,6 +143,11 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void LatteGallery (View view) {
+        Intent LatteGalleryClick = new Intent(this, LatteArtGallery.class);
+        startActivity(LatteGalleryClick);
+    }
+
+    public void LatteGalleryMenu (MenuItem view) {
         Intent LatteGalleryClick = new Intent(this, LatteArtGallery.class);
         startActivity(LatteGalleryClick);
     }
