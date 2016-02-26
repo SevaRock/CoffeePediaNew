@@ -16,19 +16,31 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textColor="#111111"
-        android:textSize="20dp"
+        android:textSize="28dp"
         android:textAlignment="center"
         android:id="@+id/ArticleHeaderText"
         android:layout_marginBottom="8dp"/>
 
-    <ImageView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:scaleType="fitCenter"
-        android:id="@+id/ArticleHeaderImage"
         android:layout_below="@+id/ArticleHeaderText"
         android:layout_marginBottom="8dp"
         android:layout_centerHorizontal="true" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="35dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/ArticleHeaderImage"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/frame"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -3,6 +3,7 @@ package com.sevarock.coffeepedia;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.net.Uri;
@@ -34,6 +35,10 @@ public class CoffeeBeverageArticle extends Activity {
         Uri ArtImage = getIntent().getParcelableExtra("image");
         ImageView ArticleImage = (ImageView) findViewById(R.id.ArticleHeaderImage);
         ArticleImage.setImageURI(ArtImage);
+
+        //Custom Fonts Applying
+        Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/docktrin.ttf");
+        ArtHeader.setTypeface(myCustomFont);
 
         //Импорт текста из RAW ресурсов
         Context context = getBaseContext();
