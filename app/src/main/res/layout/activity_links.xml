@@ -22,12 +22,38 @@
         android:textSize="28dp"
         android:layout_marginTop="3dp"
         android:layout_marginBottom="3dp" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Link1"
         android:text="https://en.wikipedia.org/wiki/Coffee"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:autoLink="web"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Link2"
+        android:text="http://www.starbucks.com/coffee"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:autoLink="web"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Link3"
+        android:text="http://www.coffeereview.com/"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:autoLink="web"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Link4"
+        android:text="http://www.ico.org/"
         android:textSize="20dp"
         android:textAlignment="center"
         android:autoLink="web"
