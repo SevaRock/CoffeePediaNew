@@ -93,4 +93,19 @@
         android:onClick="mapClick"
         android:layout_marginBottom="8dp" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/WebContent"
+        android:background="@drawable/coffeebutton"
+        android:text="Web Content Getter Test"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/MapButton"
+        android:onClick="webContentClick"
+        android:layout_marginBottom="8dp" />
+
+
 </RelativeLayout>

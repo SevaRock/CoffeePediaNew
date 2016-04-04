@@ -55,6 +55,9 @@ public class MainActivity extends AppCompatActivity
         Button customButton5 = (Button) findViewById(R.id.MapButton);
         customButton5.setTypeface(myCustomFont);
 
+        Button customButton6 = (Button) findViewById(R.id.WebContent);
+        customButton6.setTypeface(myCustomFont);
+
         final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -160,7 +163,11 @@ public class MainActivity extends AppCompatActivity
     public void varietiesClick (View view) {
         Intent varietiesClickActivity = new Intent(this, VarietiesActivity.class);
         startActivity(varietiesClickActivity);
+    }
 
+    public void webContentClick (View view) {
+        Intent webContentClickActivity = new Intent(this, WebView.class);
+        startActivity(webContentClickActivity);
     }
 
     public void mapClick (View view) {
